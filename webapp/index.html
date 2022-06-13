@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+	
+		<title>Table</title>
+
+		<script id="sap-ui-bootstrap"
+		src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_bluecrystal"
+			data-sap-ui-compatVersion="edge"
+				data-sap-ui-xx-bindingSyntax="complex"
+			data-sap-ui-resourceroots='{"TableTable": ""}'>
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script>
+
+			 var oApp = new sap.m.App("idApp",{
+	         	
+	         });
+	  
+	         var oFirst = new sap.ui.view({
+	         	id:"idFirst",
+	         	viewName:"TableTable.view.View1",
+	         	type: sap.ui.core.mvc.ViewType.XML
+	         });
+	         
+	            var oSecond = new sap.ui.view({
+	         	id:"idSecond",
+	         	viewName:"TableTable.view.second",
+	         	type: sap.ui.core.mvc.ViewType.XML
+	         });
+	           
+	       
+	           
+	           oApp.addPage(oFirst);
+	           oApp.addPage(oSecond);
+	     
+	           //oApp.setInitialPage("idSecond");
+	             oApp.placeAt("content");
+		</script>
+	</head>
+
+	<body class="sapUiBody" id="content">
+	</body>
+
+</html>

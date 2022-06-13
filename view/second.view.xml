@@ -1,0 +1,12 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="TableTable.controller.second"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="second View">
+		<content>
+			<Page class="sapUiFioriObjectPage" showHeader="false">
+				<content>
+					<Button text="Back" press="onBack"></Button>
+				</content>
+			</Page>
+		</content>
+	</Page>
+</mvc:View>

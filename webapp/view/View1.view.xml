@@ -1,0 +1,37 @@
+<mvc:View controllerName="TableTable.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="Responsive Table">
+				<content>
+				
+					<Table id="Randomid"  inset="false">
+						<columns>
+							<Column minScreenWidth="Medium" demandPopin="true" hAlign="Left">
+								<Text text="Date"/></Column>
+							<Column minScreenWidth="Medium" demandPopin="true" hAlign="Left">
+								<Text text="Documnent Type"/></Column>
+							<Column width="10em">
+								<Text text="Documnent Description"/>
+							</Column>
+							<Column minScreenWidth="Medium" demandPopin="true" hAlign="Right">
+								<Text text="Documnent No"/>
+							</Column>
+							<Column minScreenWidth="Medium" demandPopin="true" hAlign="Right">
+								<Text text="Debit Amount"/></Column>
+							<Column minScreenWidth="Medium" demandPopin="true" hAlign="Right">
+								<Text text="Credit Amount"/></Column>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+							<Column hAlign="Right">
+								<Text text="Balance"/></Column>
+							<Column minScreenWidth="Tablet" hAlign="Right">
+								<Text text="Text"/></Column>
+								
+						</columns>
+					
+					</Table>
+							<Button text="Go to Next" press="onNext" icon="sap-icon://sys-next-page"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
