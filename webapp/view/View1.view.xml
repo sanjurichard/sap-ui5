@@ -15,7 +15,7 @@
 								<Text text="Documnent Description"/>
 							</Column>
 							<Column minScreenWidth="Medium" demandPopin="true" hAlign="Right">
-								<Text text="Documnent No"/>
+								<Text text="Documnent No1"/>
 							</Column>
 							<Column minScreenWidth="Medium" demandPopin="true" hAlign="Right">
 								<Text text="Debit "/></Column>
