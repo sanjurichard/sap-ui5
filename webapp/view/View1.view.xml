@@ -26,7 +26,7 @@
 							<Column minScreenWidth="Tablet" hAlign="Right">
 								<Text text="Text"/></Column>
 								
-						<columns>
+						</columns>
 					
 					</Table>
 							<Button text="Go to Next" press="onNext" icon="sap-icon://sys-next-page"/>
