@@ -8,7 +8,7 @@
 					<Table id="Randomid"  inset="false">
 						<columns>
 							<Column minScreenWidth="Medium" demandPopin="true" hAlign="Left">
-								<Text text="Date"/></Column>
+								<Text text="Date 1"/></Column>
 							<Column minScreenWidth="Medium" demandPopin="true" hAlign="Left">
 								<Text text="Documnent Type"/></Column>
 							<Column width="10em">
